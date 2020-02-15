@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div id="container">
+        <div id="main1">
+            <h2 id="header">Old school calcultor</h2>
+            <div id="str2">
+             <p class="strup" id="action"></p>
+             <p class="strup" id="secondstr"></p>   
+            </div>
+       
+            <input id="answer" onkeyup="onlyNumbers(this)" placeholder="0"></input>
+        
+            <br>
+            <button id="btn7" class="btnAll" onClick="num7()">7</button>
+            <button id="btn8" class="btnAll" onClick="num8()">8</button>
+            <button id="btn9" class="btnAll" onClick="num9()">9</button>
+            <button id="btns" class="btn2"  onClick="numStar()">*</button>
+            <br>
+            <button id="btn4" class="btnAll" onClick="num4()">4</button>
+            <button id="btn5" class="btnAll" onClick="num5()">5</button>
+            <button id="btn6" class="btnAll" onClick="num6()">6</button>
+            <button class="btn2" onClick="devid()">÷</button>
+            <br>
+            <button id="btn1" class="btnAll" onClick="num1()">1</button>
+            <button id="btn2" class="btnAll" onClick="num2()">2</button>
+            <button id="btn3" class="btnAll" onClick="num3()">3</button>
+            <button id="btnPlus" class="btn2" onClick="plus1()">+</button>
+            <br>
+            <button class="btn2" onClick="clear1()">C</button>
+            <button id="btn0" class="btnAll" onClick="num0()">0</button>
+            <button class="btn2" onClick="minus()">-</button>
+            <button id="sumAll" class="btn2" onClick="sum()">=</button>
+        </div>
+        
+
+
+    </div>
+
+
+    <script src='java.js'></script>
+</body>
+</html>

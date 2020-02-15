@@ -1,0 +1,60 @@
+/* מערך ראשון התחתון שבו מופיעים ההקלדה הראשונה והפתרון */
+#answer{
+    width: 180px;
+    background: linear-gradient(to right,  rgb(140, 240, 178), rgb(86, 86, 252));
+    border-color: brown;
+    border: solid;
+    border-top: none;
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+    
+}
+
+::placeholder{
+    color: darkgray;
+}
+/* כפתורי המספרים */
+.btnAll{
+    margin: 1px;
+    font-size: 30px;
+    width: 40px;
+    background-color: (255, 255, 255, 0.75);
+    
+}
+.btnAll:hover{
+    background-color: rgb(255, 255, 255, 0.99);
+
+}
+.btn2:hover{
+    background: linear-gradient(to right, rgb(253, 210, 154), rgb(194, 248, 133));    
+}
+
+#main1{
+    margin-left: 100px;
+}
+/* כפתורי הפעולה */
+.btn2{
+    margin: 1px;
+    font-size: 30px;
+    width: 40px;
+    background: linear-gradient(to right, rgb(190, 253, 154), rgb(172, 242, 252));    
+}
+#header{
+    margin-left: -40px;
+    text-decoration: underline;
+    color: darkolivegreen;
+}
+/* שתי המערכים העליונים- אחד מערך הפעולה והשני מערך עליון לחישוב פיתרון */
+#str2{
+    width: 180px;
+    background: linear-gradient(to right,  rgb(140, 240, 178), rgb(86, 86, 252));
+    border: solid;
+    height: 30px;
+    border-bottom: none;
+    font-size: 1rem;
+
+}
+.strup{
+    /* float: left; */
+    display: inline;
+}
